@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:sans-serif Georgia, 'Times New Roman', Times, serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif Georgia, 'Times New Roman', Times, serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.container{
+.container {
     width: 100vw;
     height: 100vh;
     background-image: url(background.png);
@@ -15,34 +15,35 @@
     position: relative;
 }
 
-.logo{
+.logo {
     width: 120px;
     padding: 20px 0;
     cursor: pointer;
     margin: 20px 0;
 }
 
-.content{
+.content {
     top: 50%;
     position: absolute;
     transform: translateY(-50%);
     color: #fff;
 }
-.content p{
+
+.content p {
     font-size: 22px;
 }
 
-.content h1{
+.content h1 {
     font-size: 64px;
     font-weight: 600;
     padding: 10px 0;
 }
 
-.content h1 span{
-    color: #ff3753;   
+.content h1 span {
+    color: #ff3753;
 }
 
-.content button{
+.content button {
     background: transparent;
     border: 2px solid #fff;
     border-radius: 5px;
@@ -54,35 +55,33 @@
     margin-top: 30px;
     margin-left: 210px;
     cursor: pointer;
-
 }
 
-.content button a{
+.content button a {
     color: #fff;
     text-decoration: none;
 }
 
-.content button img{
+.content button img {
     width: 15px;
     margin-left: 10px;
-
 }
 
-.launch-time{
+.launch-time {
     display: flex;
     margin-left: 80px;
 }
 
-.launch-time div{
+.launch-time div {
     flex-basis: 100px;
 }
 
-.launch-time div p{
+.launch-time div p {
     font-size: 60px;
     margin-bottom: -14px;
 }
 
-.rocket{
+.rocket {
     width: 250px;
     position: absolute;
     right: 17%;
@@ -91,19 +90,19 @@
 }
 
 
-.content div{
+.content div {
     text-align: center;
 }
 
 
 
-@keyframes rocket{
-    0%{
+@keyframes rocket {
+    0% {
         bottom: 0%;
         opacity: 0.1;
     }
 
-    100%{
+    100% {
         bottom: 105%;
         opacity: 1;
     }
