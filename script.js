@@ -1,5 +1,4 @@
 
-
 var countDownDate = new Date("Jan 1, 2025 00:00:00").getTime();
 var x = setInterval(function () {
     var now = new Date().getTime();
@@ -10,13 +9,10 @@ var x = setInterval(function () {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-
     document.getElementById("days").innerHTML = days;
     document.getElementById("hours").innerHTML = hours;
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
-
-
 
     if(distance < 0) {
         clearInterval(x);
@@ -25,5 +21,4 @@ var x = setInterval(function () {
         document.getElementById("minutes").innerHTML = "00";
         document.getElementById("seconds").innerHTML = "00";
     }
-
 }, 1000);
