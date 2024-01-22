@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -70,6 +71,7 @@
 .launch-time {
     display: flex;
     margin-left: 80px;
+
 }
 
 .launch-time div {
@@ -95,13 +97,11 @@
 }
 
 
-
 @keyframes rocket {
     0% {
         bottom: 0%;
         opacity: 0.1;
     }
-
     100% {
         bottom: 105%;
         opacity: 1;
